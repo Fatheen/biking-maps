@@ -1,0 +1,163 @@
+/* styles.css */
+.leaflet-container {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .map-container {
+    position: relative;
+  }
+  
+  .search-bar-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    z-index: 1000;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggestions li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .error-message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  .address-info {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .navigation-input-container {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .navigation-input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .start-button,
+  .preview-button {
+    width: 45%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button:disabled,
+  .preview-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .start-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .start-button:hover:enabled {
+    background-color: darkgreen;
+  }
+  
+  .preview-button {
+    background-color: blue;
+    color: white;
+  }
+  
+  .preview-button:hover:enabled {
+    background-color: darkblue;
+  }
+  
+  .cinematic-preview {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  

@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-const ROUTING_API_KEY = '5b3ce3597851110001cf624819a7ec8b10074945b21db45739312c54';
-const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZmF0aGVlbjAiLCJhIjoiY2x6YWVoMnZ4MGlydzJrcG5hbGRmamR2diJ9.tc5lOCuofoVHaDJlV5R6ZQ';
+const ROUTING_API_KEY = '-';
+const MAPBOX_ACCESS_TOKEN = '-.-.-';
 
 mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN;
 

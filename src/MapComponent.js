@@ -6,7 +6,7 @@ import 'leaflet-control-geocoder';
 import './styles.css';
 import CinematicPreview from './CinematicPreview';
 
-const OPENCAGE_API_KEY = 'fa019f0a1c6246a48c3511acac6be990';
+const OPENCAGE_API_KEY = 'apikey';
 
 const SearchField = ({ setAddressInfo, setSelectedPosition }) => {
   const [query, setQuery] = useState('');
